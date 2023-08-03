@@ -23,9 +23,10 @@ class TasksManager
         Console.WriteLine("\n| Reading your tasks from file...");
         using StreamReader reader = new(_filePath);
         string? line;
-        while ((line = await reader.ReadLineAsync()) != null)
+
+        try
         {
-            try
+            while ((line = await reader.ReadLineAsync()) != null)
             {
                 string[] values = line.Split(',');
                 UnitTask task = new()
@@ -38,20 +39,28 @@ class TasksManager
 
                 tasks.Add(task);
             }
-            catch
-            {
-                Console.WriteLine("Error reading task from file.");
-            }
+        }
+        catch
+        {
+            Console.WriteLine("Error reading task from file. Try restarting.");
         }
     }
 
     public async Task SaveToFile()
     {
         Console.WriteLine("\n| Saving your tasks to file...");
-        using StreamWriter writer = new(_filePath);
-        foreach (UnitTask task in tasks)
+        try
         {
-            await writer.WriteLineAsync(task.ToCSV());
+            using StreamWriter writer = new(_filePath);
+            foreach (UnitTask task in tasks)
+            {
+                await writer.WriteLineAsync(task.ToCSV());
+            }
+
+        }
+        catch
+        {
+            Console.WriteLine("Error saving task to file. Exiting now.");
         }
     }
 

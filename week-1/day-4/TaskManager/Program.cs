@@ -112,7 +112,7 @@ class Program
         string? response = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(response) && !canBeEmpty)
         {
-            Console.WriteLine("Please enter a valid response.");
+            Console.WriteLine("Please enter a valid response. It cannot be empty.");
             Console.Write(prompt);
             response = Console.ReadLine();
         }
@@ -127,7 +127,7 @@ class Program
         int result;
         while (!int.TryParse(response, out result) || result < min || result > max)
         {
-            Console.WriteLine("Please enter a valid response.");
+            Console.WriteLine("Please enter a valid response from the option range.");
             Console.Write(prompt);
             response = Console.ReadLine();
         }
@@ -141,7 +141,7 @@ class Program
         string? response = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(response) || response.ToLower() != trueValue && response.ToLower() != falseValue)
         {
-            Console.WriteLine("Please enter a valid response.");
+            Console.WriteLine("Please enter a valid response from the given alternatives.");
             Console.Write(prompt);
             response = Console.ReadLine();
         }
@@ -154,40 +154,20 @@ class Program
         Console.Write(prompt);
         string? response = Console.ReadLine();
 
-        // if no response, return empty list
-        if (string.IsNullOrWhiteSpace(response))
-            return new List<int>();
-
-        List<int> result = new();
-
-        // Split the response by comma and try to parse each element into an int
-        string[] elements = response.Split(", ");
-
-        foreach (string element in elements)
+        try
         {
-            // Try to parse the element into an int
-            if (int.TryParse(element, out int value))
+            List<int> result = new();
+            string[] elements = response!.Split(", ");
+            foreach (string element in elements)
             {
-                // Check if the parsed value is within the specified range
-                if (value >= min && value <= max)
-                {
-                    // Add the valid value to the result list
-                    result.Add(value);
-                }
-                else
-                {
-                    // Return an empty list if any element is out of range
-                    return new List<int>();
-                }
+                result.Add(int.Parse(element));
             }
-            else
-            {
-                // Return an empty list if any element is not an int
-                return new List<int>();
-            }
+            return result;
         }
-
-        return result;
+        catch
+        {
+            return new List<int>();
+        }
     }
 
 }
