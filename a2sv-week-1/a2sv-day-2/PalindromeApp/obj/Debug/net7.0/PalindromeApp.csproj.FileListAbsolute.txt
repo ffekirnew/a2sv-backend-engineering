@@ -1,0 +1,15 @@
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.AssemblyInfo.cs
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/bin/Debug/net7.0/PalindromeApp
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/bin/Debug/net7.0/PalindromeApp.deps.json
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/bin/Debug/net7.0/PalindromeApp.runtimeconfig.json
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/bin/Debug/net7.0/PalindromeApp.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/bin/Debug/net7.0/PalindromeApp.pdb
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/refint/PalindromeApp.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.pdb
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/PalindromeApp.genruntimeconfig.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/PalindromeApp/obj/Debug/net7.0/ref/PalindromeApp.dll

@@ -1,0 +1,15 @@
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.AssemblyInfo.cs
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/bin/Debug/net7.0/LibraryCatalog
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/bin/Debug/net7.0/LibraryCatalog.deps.json
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/bin/Debug/net7.0/LibraryCatalog.runtimeconfig.json
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/bin/Debug/net7.0/LibraryCatalog.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/bin/Debug/net7.0/LibraryCatalog.pdb
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/refint/LibraryCatalog.dll
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.pdb
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/LibraryCatalog.genruntimeconfig.cache
+/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/obj/Debug/net7.0/ref/LibraryCatalog.dll
