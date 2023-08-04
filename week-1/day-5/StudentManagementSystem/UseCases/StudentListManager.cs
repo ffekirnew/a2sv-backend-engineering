@@ -12,7 +12,7 @@ class StudentListManager
 
     public void AddStudent(string name, int age, string id, string department)
     {
-        Student student = new() { Name = name, Age = age, Id = id, Department = department, RollNumber = NumberOfStudents + 1 };
+        Student student = new() { Name = name, Age = age, Id = id, Department = department, RollNumber = studentList.List[NumberOfStudents - 1].RollNumber + 1 };
         studentList.Add(student);
     }
 

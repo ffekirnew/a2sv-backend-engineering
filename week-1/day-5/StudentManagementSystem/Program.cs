@@ -1,5 +1,4 @@
 ﻿using StudentManagementSystem.Entities;
-using StudentManagementSystem.Serializers;
 using StudentManagementSystem.UseCases;
 
 namespace StudentManagementSystem;
@@ -8,16 +7,17 @@ class Program
 {
     private readonly StudentListManager studentListManager = new();
 
-    public static Task Main()
+    public static void Main()
     {
         var app = new Program();
-        return app.Run();
+        app.Initialize();
+        app.Run();
     }
 
     private static int PrintMenu()
     {
         Console.WriteLine();
-        Console.WriteLine("".PadRight(70, '`'));
+         Console.WriteLine("".PadRight(70, '`'));
         Console.WriteLine("Welcome to Student Management System");
         Console.WriteLine("".PadRight(70, '`'));
         Console.WriteLine("Please select an option from the menu below:");
@@ -36,9 +36,13 @@ class Program
         return 9;
     }
 
-    private async Task Run()
+    private async Task Initialize()
     {
         await studentListManager.ReadFromJson();
+    }
+
+    private async Task Run()
+    {
         var length = PrintMenu();
         int option = ReadNumber("Enter your option: ", 1, length);
         Console.WriteLine();
@@ -79,8 +83,9 @@ class Program
             Console.WriteLine("There are no students to add grades to. Try adding some students first.");
             return;
         }
-        int studentIndex = ReadNumber("Enter the student index: ", 1, studentListManager.NumberOfStudents);
+
         PrintAllStudents();
+        int studentIndex = ReadNumber("Enter the student index: ", 1, studentListManager.NumberOfStudents);
         string courseName = ReadString("Enter the course name: ");
         float courseGrade = ReadNumber("Enter the course grade: ", 0, 4);
         studentListManager.AddCourseGrade(studentIndex, courseName, courseGrade);

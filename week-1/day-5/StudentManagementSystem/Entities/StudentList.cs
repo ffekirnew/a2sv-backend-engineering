@@ -24,9 +24,9 @@ class StudentList<T>
     public void Print()
     {
         Console.WriteLine("".PadRight(70, '-'));
-        Console.WriteLine($"   {"Name",-15} {"Age",-5} {"Id",-15} {"Department",-20} {"CGPA",-4}");
+        Console.WriteLine($"  {"Name",-18} {"Age",-5} {"Id",-15} {"Department",-20} {"CGPA",-4}");
         // Underline
-        Console.WriteLine($"   {"----",-15} {"---",-5} {"--",-15} {"----------",-20} {"----",-4}");
+        Console.WriteLine($"  {"----",-18} {"---",-5} {"--",-15} {"----------",-20} {"----",-4}");
         foreach (var student in students)
         {
             Console.WriteLine(student);

@@ -28,6 +28,6 @@ class Student
         cgpa /= courses.Count;
     }
 
-    public override string ToString() => $"{rollNumber, -3} {name, -15} {age, -5} {id, -15} {department, -20} {cgpa, -5}";
+    public override string ToString() => $"{rollNumber, -1} {name, -18} {age, -5} {id, -15} {department, -20} {cgpa, -5}";
     
 }
