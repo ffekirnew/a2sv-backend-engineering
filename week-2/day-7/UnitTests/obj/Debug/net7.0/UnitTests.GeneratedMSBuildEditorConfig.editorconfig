@@ -1,5 +1,5 @@
 is_global = true
-build_property.DesignTimeBuild = 
+build_property.DesignTimeBuild = true
 build_property.MSBuildProjectFullPath = /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/UnitTests/UnitTests.csproj
 build_property.DebugSponsorLink = 
 build_property.TargetFramework = net7.0
