@@ -1,5 +1,5 @@
 # BlogApp
-This is a bloging app created with ASP.NET Core Web Api. The project follows the Clean Architecture pattern where the files have been divided into Domain, Application, Infrastructure and Presentation. 
+This is a bloging app created with ASP.NET Core Web Api. The project follows the Clean Architecture pattern where the files have been divided into Domain, Application, Infrastructure and Presentation. The project also contains a test module, which contains unit tests for the application. 
 
 ## Table of Contents
 1. [Features](#features)
@@ -35,7 +35,7 @@ The code is organized into the following folders:
 │   │   ├── Data
 │   │   │   ├── AppDbContext.cs
 │   │   ├── BlogApp.csproj
-│   │   ├── Program.c
+│   │   ├── Program.cs
 │   ├── UnitTests
 │   │   ├── Application
 │   │   │   ├── PostsTests.cs
