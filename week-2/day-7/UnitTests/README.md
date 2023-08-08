@@ -5,6 +5,7 @@
 - [Conclusion](#conclusion)
 
 ## Introduction
+![image_2023-08-08_19-40-40](https://github.com/ffekirnew/a2sv-backend-engineering/assets/98191496/0aee4098-3953-42e0-9c43-0084f5d6f064)
 In this part, we will be writing unit tests for the blog app. The main goal of this module is to be able to test the functionality of the blog app. Through that, the connection with the PostgreSQL database achieved with Microsoft Entity Framework Core will be tested. The unit tests will be written in C# using the xUnit framework. Moreover, when needed the Moq framework will be used to mock the database context and the EntityFrameworkCore.InMemory package will be used to create an in-memory database.
 
 Summary of Technologies Used:
