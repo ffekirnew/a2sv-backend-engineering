@@ -1,5 +1,5 @@
 # BlogApp
-This is a bloging app created with ASP.NET Core Web Api. The project follows the Clean Architecture pattern where the files have been divided into Domain, Application, Infrastructure and Presentation. The project also contains a test module, which contains unit tests for the application. 
+This is a bloging app created with ASP.NET Core Web Api. The main goal of this task was to be able to use EFCore to integrate PostgreSQL with .Net development. The method to allow users to access it was our choice and I have gone with a REST(ful) API. The project follows the Clean Architecture pattern where the code base has been divided into Domain, Application, Infrastructure and Presentation. The project also contains a test module, which contains unit tests for the application.
 
 ## Table of Contents
 1. [Features](#features)
@@ -26,8 +26,8 @@ The code is organized into the following folders:
 │   │   │   ├── Comments.cs
 │   │   ├── Infrastucture
 │   │   │   ├── Repositories
-│   │   │   │   ├── PostsRepository.cs
-│   │   │   │   ├── CommentsRepository.cs
+│   │   │   │   ├── PostsRepository.cs (BlogPostManager)
+│   │   │   │   ├── CommentsRepository.cs (CommentManager)
 │   │   ├── Presentation
 │   │   │   ├── Controllers
 │   │   │   │   ├── PostsController.cs
