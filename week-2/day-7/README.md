@@ -65,27 +65,27 @@ The end-points of this api are based on the REST architecture. The request and r
 #### Endpoints
 ##### Get all posts
 ```js
-GET /api/posts
+GET /posts
 ```
 
 ##### Get post by id
 ```js
-GET /api/posts/{id}
+GET /posts/{id}
 ```
 
 ##### Create post
 ```js
-POST /api/posts
+POST /posts
 ```
 
 ##### Update post
 ```js
-PUT /api/posts/{id}
+PUT /posts/{id}
 ```
 
 ##### Delete post
 ```js
-DELETE /api/posts/{id}
+DELETE /posts/{id}
 ```
 
 ### 2. Comment
@@ -109,25 +109,25 @@ DELETE /api/posts/{id}
 #### Endpoints
 ##### Get all comments
 ```js
-GET /api/posts/{postId}/comments
+GET /posts/{postId}/comments
 ```
 
 ##### Get comment by id
 ```js
-GET /api/posts/{postId}/comments/{id}
+GET /posts/{postId}/comments/{id}
 ```
 
 ##### Create comment
 ```js
-POST /api/posts/{postId}/comments
+POST /posts/{postId}/comments
 ```
 
 ##### Update comment
 ```js
-PUT /api/posts/{postId}/comments/{id}
+PUT /posts/{postId}/comments/{id}
 ```
 
 ##### Delete comment
 ```js
-DELETE /api/posts/{postId}/comments/{id}
+DELETE /posts/{postId}/comments/{id}
 ```
