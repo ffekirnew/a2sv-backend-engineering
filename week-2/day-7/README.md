@@ -37,19 +37,7 @@ The code is organized into the following folders:
 │   │   ├── BlogApp.csproj
 │   │   ├── Program.cs
 │   ├── UnitTests
-│   │   ├── Application
-│   │   │   ├── PostsTests.cs
-│   │   │   ├── CommentsTests.cs
-│   │   ├── Infrastructure
-│   │   │   ├── Repositories
-│   │   │   │   ├── PostsRepositoryTests.cs
-│   │   │   │   ├── CommentsRepositoryTests.cs
-│   │   ├── Domain
-│   │   │   ├── Entities
-│   │   │   │   ├── PostTests.cs
-│   │   │   │   ├── CommentTests.cs
-│   │   ├── BlogApp.UnitTests.csproj
-│   ├── BlogApp.sln
+│   ├── day-7.sln
 │   ├── README.md
 ```
 
