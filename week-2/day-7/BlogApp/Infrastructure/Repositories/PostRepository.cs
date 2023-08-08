@@ -1,31 +1,22 @@
+using BlogApp.Application.Interfaces;
 using BlogApp.Data;
-using BlogApp.Models;
+using BlogApp.Domain.Entities;
 
-namespace BlogApp.Services;
+namespace BlogApp.Infrastructure.Repositories;
 
-class PostService
+public class PostRepository : IPostRepository
 {
     private readonly AppDbContext _context;
 
-    public PostService(AppDbContext context) => _context = context;
+    public PostRepository(AppDbContext context) => _context = context;
 
     public Post AddNewPost(Post post)
     {
+        Console.WriteLine(_context);
         _context.Add(post);
+        _context.SaveChanges();
 
         return post;
-    }
-
-    public List<Post> GetAllPosts()
-    {
-        List<Post> posts = new();
-
-        foreach (Post post in _context.Posts)
-        {
-            posts.Add(post);
-        }
-
-        return posts;
     }
 
     public Post GetPostById(int postId)
@@ -38,7 +29,7 @@ class PostService
         }
         else
         {
-            throw new ArgumentException("Post not found.");
+            throw new Exception("Post is not found.");
         }
     }
 
@@ -65,11 +56,24 @@ class PostService
         {
             Post post = GetPostById(postId);
             _context.Remove(post);
+            _context.SaveChanges();
             return post;
         }
-        catch (System.Exception)
+        catch
         {
             throw;
         }
+    }
+
+    public List<Post> GetAllPosts()
+    {
+        List<Post> posts = new();
+
+        foreach (Post post in _context.Posts)
+        {
+            posts.Add(post);
+        }
+
+        return posts;
     }
 }

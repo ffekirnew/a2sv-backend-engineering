@@ -11,7 +11,9 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.9",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.Design": "7.0.9",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
+          "Microsoft.TestPlatform": "17.6.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -71,6 +73,17 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "7.0.9.0",
+            "fileVersion": "7.0.923.31909"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.9": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.9"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
             "assemblyVersion": "7.0.9.0",
             "fileVersion": "7.0.923.31909"
           }
@@ -155,6 +168,7 @@
           }
         }
       },
+      "Microsoft.TestPlatform/17.6.3": {},
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -293,6 +307,13 @@
       "path": "microsoft.entityframeworkcore.design/7.0.9",
       "hashPath": "microsoft.entityframeworkcore.design.7.0.9.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I8Vv9Qj8WVetEh2xfNZRMaCliHQT2fScepvDHTV4lgEs4GKqvBhBKv45RvSdfjSHvg7GI48JQbSeWz0IblAxSQ==",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.9",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.7.0.9.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Relational/7.0.9": {
       "type": "package",
       "serviceable": true,
@@ -390,6 +411,13 @@
       "sha512": "sha512-rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "path": "microsoft.openapi/1.4.3",
       "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
+    },
+    "Microsoft.TestPlatform/17.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/RYuLwu1KxYcdxSqvk5DwCAQdzqeYeJ/9H1gmFk/dLPj5LACnjZzkZ1GEKp/JK1JI4mq9TDGBRLAZc9djzEy2Q==",
+      "path": "microsoft.testplatform/17.6.3",
+      "hashPath": "microsoft.testplatform.17.6.3.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

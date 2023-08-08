@@ -1,9 +1,9 @@
-using BlogApp.Models;
+using BlogApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlogApp.Data;
 
-class AppDbContext : DbContext
+public class AppDbContext : DbContext
 {
     public virtual DbSet<Post> Posts { get; set; }
     public virtual DbSet<Comment> Comments { get; set; }

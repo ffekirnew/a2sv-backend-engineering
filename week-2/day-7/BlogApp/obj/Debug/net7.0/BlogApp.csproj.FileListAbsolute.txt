@@ -1,10 +1,3 @@
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.csproj.AssemblyReference.cache
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.GeneratedMSBuildEditorConfig.editorconfig
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.AssemblyInfoInputs.cache
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.AssemblyInfo.cs
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.csproj.CoreCompileInputs.cache
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.MvcApplicationPartsAssemblyInfo.cs
-/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.MvcApplicationPartsAssemblyInfo.cache
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/appsettings.Development.json
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/appsettings.json
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/BlogApp
@@ -17,6 +10,7 @@
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Microsoft.OpenApi.dll
@@ -27,6 +21,13 @@
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/bin/Debug/net7.0/System.CodeDom.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.AssemblyInfo.cs
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.MvcApplicationPartsAssemblyInfo.cs
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/BlogApp.MvcApplicationPartsAssemblyInfo.cache
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/staticwebassets/msbuild.BlogApp.Microsoft.AspNetCore.StaticWebAssets.props
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/staticwebassets/msbuild.build.BlogApp.props
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-7/BlogApp/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlogApp.props

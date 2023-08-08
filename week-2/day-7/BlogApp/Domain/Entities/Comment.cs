@@ -1,6 +1,6 @@
-namespace BlogApp.Models;
+namespace BlogApp.Domain.Entities;
 
-class Comment : BaseEntity
+public class Comment : BaseEntity
 {
     private int postId;
     private string text = "";
@@ -14,7 +14,7 @@ class Comment : BaseEntity
     public string Text
     {
         get => text;
-        set => text = Text;
+        set => text = value;
     }
 
     public virtual Post? Post { get; set; }

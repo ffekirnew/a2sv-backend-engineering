@@ -1,8 +1,10 @@
+using BlogApp.Application;
+using BlogApp.Application.Interfaces;
 using BlogApp.Data;
+using BlogApp.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
 
 {
     // Add services to the container.
@@ -13,6 +15,12 @@ var builder = WebApplication.CreateBuilder(args);
         .AddDbContext<AppDbContext>(
             opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultDbConnection"))
         );
+
+    builder.Services.AddScoped<IPostRepository, PostRepository>();
+    builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
+    builder.Services.AddScoped<PostApplication>();
+    builder.Services.AddScoped<CommentApplication>();
 
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     // builder.Services.AddEndpointsApiExplorer();

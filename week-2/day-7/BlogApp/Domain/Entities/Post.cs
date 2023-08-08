@@ -1,10 +1,9 @@
-namespace BlogApp.Models;
+namespace BlogApp.Domain.Entities;
 
-class Post : BaseEntity
+public class Post : BaseEntity
 {
     private string title = "";
     private string content = "";
-    private DateTime createdAt;
 
     public string Title
     {

@@ -1,31 +1,21 @@
+using BlogApp.Application.Interfaces;
 using BlogApp.Data;
-using BlogApp.Models;
+using BlogApp.Domain.Entities;
 
-namespace BlogApp.Services;
+namespace BlogApp.Infrastructure.Repositories;
 
-class CommentService
+public class CommentRepository : ICommentRepository
 {
     private readonly AppDbContext _context;
 
-    public CommentService(AppDbContext context) => _context = context;
+    public CommentRepository(AppDbContext context) => _context = context;
 
     public Comment AddNewComment(Comment comment)
     {
         _context.Add(comment);
+        _context.SaveChanges();
 
         return comment;
-    }
-
-    public List<Comment> GetAllComments()
-    {
-        List<Comment> comments = new();
-
-        foreach (Comment comment in _context.Comments)
-        {
-            comments.Add(comment);
-        }
-
-        return comments;
     }
 
     public Comment GetCommentById(int commentId)
@@ -38,7 +28,7 @@ class CommentService
         }
         else
         {
-            throw new ArgumentException("Comment not found.");
+            throw new Exception("Comment not found.");
         }
     }
 
@@ -64,11 +54,25 @@ class CommentService
         {
             Comment comment = GetCommentById(commentId);
             _context.Remove(comment);
+            _context.SaveChanges();
             return comment;
         }
-        catch (System.Exception)
+        catch 
         {
             throw;
         }
+    }
+
+    public List<Comment> GetAllCommentsOfPost(int postId)
+    {
+        List<Comment> postComments = new();
+        var comments = _context.Comments.Where(c => c.PostId == postId).ToList();
+
+        foreach (Comment comment in comments)
+        {
+            postComments.Add(comment);
+        }
+
+        return postComments;
     }
 }
