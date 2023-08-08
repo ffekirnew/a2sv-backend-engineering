@@ -44,6 +44,7 @@ The code is organized into the following folders:
 ```
 
 ## Endpoints
+![image](https://github.com/ffekirnew/a2sv-backend-engineering/assets/98191496/fb928263-2f7e-4c99-bc40-037200348008)
 The end-points of this application can be generally divided into two categories: [Post](#1-post) and [Comment](#2-comment).
 The end-points of this api are based on the REST architecture. The request and response formats are in JSON. They are described below. Then the end points will follow:
 ### 1. Post
