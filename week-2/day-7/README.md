@@ -54,8 +54,9 @@ The code is organized into the following folders:
 ```
 
 ## Endpoints
+The end-points of this application can be generally divided into two categories: [Post](#1-post) and [Comment](#2-comment).
 The end-points of this api are based on the REST architecture. The request and response formats are in JSON. They are described below. Then the end points will follow:
-### Post
+### 1. Post
 #### Request Format
 ```js
 {
@@ -73,7 +74,7 @@ The end-points of this api are based on the REST architecture. The request and r
     "createdOn": "string",
 }
 ```
-#### 1. Endpoints
+#### Endpoints
 ##### Get all posts
 ```js
 GET /api/posts
