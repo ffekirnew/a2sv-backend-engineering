@@ -3,8 +3,15 @@ namespace StudentManagementSystem.Entities;
 class StudentList<T>
 {
     private List<T> students = new();
-    public int NumberOfStudents { get => students.Count; }
-    public List<T> List { get => students; set => students = value; }
+    public int NumberOfStudents
+    {
+        get => students.Count;
+    }
+    public List<T> List
+    {
+        get => students;
+        set => students = value;
+    }
 
     public void Add(T student)
     {
@@ -24,9 +31,13 @@ class StudentList<T>
     public void Print()
     {
         Console.WriteLine("".PadRight(70, '-'));
-        Console.WriteLine($"  {"Name",-18} {"Age",-5} {"Id",-15} {"Department",-20} {"CGPA",-4}");
+        Console.WriteLine(
+            $"  {"Name", -18} {"Age", -5} {"Id", -15} {"Department", -20} {"CGPA", -4}"
+        );
         // Underline
-        Console.WriteLine($"  {"----",-18} {"---",-5} {"--",-15} {"----------",-20} {"----",-4}");
+        Console.WriteLine(
+            $"  {"----", -18} {"---", -5} {"--", -15} {"----------", -20} {"----", -4}"
+        );
         foreach (var student in students)
         {
             Console.WriteLine(student);
@@ -40,5 +51,6 @@ class StudentList<T>
         Console.WriteLine(students[index]);
     }
 
-    public override string ToString() => $"Student List Object with ${NumberOfStudents} number of students.";
+    public override string ToString() =>
+        $"Student List Object with ${NumberOfStudents} number of students.";
 }

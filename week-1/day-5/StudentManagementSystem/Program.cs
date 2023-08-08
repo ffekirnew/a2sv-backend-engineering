@@ -7,17 +7,17 @@ class Program
 {
     private readonly StudentListManager studentListManager = new();
 
-    public static void Main()
+    public static async Task Main()
     {
         var app = new Program();
-        app.Initialize();
-        app.Run();
+        await app.Initialize();
+        await app.Run();
     }
 
     private static int PrintMenu()
     {
         Console.WriteLine();
-         Console.WriteLine("".PadRight(70, '`'));
+        Console.WriteLine("".PadRight(70, '`'));
         Console.WriteLine("Welcome to Student Management System");
         Console.WriteLine("".PadRight(70, '`'));
         Console.WriteLine("Please select an option from the menu below:");
@@ -32,7 +32,7 @@ class Program
         Console.WriteLine("9. Exit");
         Console.WriteLine("".PadRight(70, '`'));
         Console.WriteLine();
-        
+
         return 9;
     }
 
@@ -47,21 +47,19 @@ class Program
         int option = ReadNumber("Enter your option: ", 1, length);
         Console.WriteLine();
 
-        Dictionary<int, Action> options = new()
-        {
-            { 1, AddStudent },
-            { 2, RemoveStudent },
-            { 3, SearchStudent },
-            { 4, FilterByGrade },
-            { 5, PrintAllStudents },
-            { 6, AddStudentGrade }
-        };
+        Dictionary<int, Action> options =
+            new()
+            {
+                { 1, AddStudent },
+                { 2, RemoveStudent },
+                { 3, SearchStudent },
+                { 4, FilterByGrade },
+                { 5, PrintAllStudents },
+                { 6, AddStudentGrade }
+            };
 
-        Dictionary<int, Func<Task>> asyncOptions = new()
-        {
-            { 7, SaveToFile },
-            { 8, LoadFromFile },
-        };
+        Dictionary<int, Func<Task>> asyncOptions =
+            new() { { 7, SaveToFile }, { 8, LoadFromFile }, };
 
         if (options.ContainsKey(option))
             options[option]();
@@ -80,12 +78,18 @@ class Program
     {
         if (studentListManager.NumberOfStudents == 0)
         {
-            Console.WriteLine("There are no students to add grades to. Try adding some students first.");
+            Console.WriteLine(
+                "There are no students to add grades to. Try adding some students first."
+            );
             return;
         }
 
         PrintAllStudents();
-        int studentIndex = ReadNumber("Enter the student index: ", 1, studentListManager.NumberOfStudents);
+        int studentIndex = ReadNumber(
+            "Enter the student index: ",
+            1,
+            studentListManager.NumberOfStudents
+        );
         string courseName = ReadString("Enter the course name: ");
         float courseGrade = ReadNumber("Enter the course grade: ", 0, 4);
         studentListManager.AddCourseGrade(studentIndex, courseName, courseGrade);
