@@ -60,62 +60,83 @@ public class CommentsController : ControllerBase
         }
         catch (Exception ex)
         {
-            return NotFound(ex.ToString());
+            return NotFound("Post or Comment not Found.");
         }
     }
 
     [HttpGet]
     public IActionResult GetComments(int postId)
     {
-        List<Comment> comments = _commentUseCase.GetAllCommentsOfPost(postId);
-        List<CommentResponse> response = new List<CommentResponse>();
-
-        foreach (Comment comment in comments)
+        try
         {
-            response.Add(new CommentResponse(comment.Id, comment.PostId, comment.Text));
-        }
+            List<Comment> comments = _commentUseCase.GetAllCommentsOfPost(postId);
+            List<CommentResponse> response = new List<CommentResponse>();
 
-        return Ok(response);
+            foreach (Comment comment in comments)
+            {
+                response.Add(new CommentResponse(comment.Id, comment.PostId, comment.Text));
+            }
+
+            return Ok(response);
+        }
+        catch
+        {
+            return NotFound("Post not found.");
+        }
     }
 
     [HttpDelete("{id:int}")]
     public IActionResult DeleteComment(int postId, int id)
     {
-        Comment deletedComment = _commentUseCase.DeleteComment(id);
-
-        if (deletedComment == null || deletedComment.PostId != postId)
+        try
         {
-            return NotFound();
+            Comment deletedComment = _commentUseCase.DeleteComment(id);
+
+            if (deletedComment == null || deletedComment.PostId != postId)
+            {
+                return NotFound();
+            }
+
+            CommentResponse response = new CommentResponse(
+                deletedComment.Id,
+                deletedComment.PostId,
+                deletedComment.Text
+            );
+
+            return Ok(response);
         }
-
-        CommentResponse response = new CommentResponse(
-            deletedComment.Id,
-            deletedComment.PostId,
-            deletedComment.Text
-        );
-
-        return Ok(response);
+        catch
+        {
+            return NotFound("Comment not Found.");
+        }
     }
 
     [HttpPut("{id:int}")]
     public IActionResult UpdateComment(int postId, int id, CommentRequest request)
     {
-        Comment updatedComment = new Comment();
-        updatedComment.Text = request.Text;
-
-        Comment result = _commentUseCase.UpdateComment(id, updatedComment);
-
-        if (result == null || result.PostId != postId)
+        try
         {
-            return NotFound();
+            Comment updatedComment = new Comment();
+            updatedComment.Text = request.Text;
+
+            Comment result = _commentUseCase.UpdateComment(id, updatedComment);
+
+            if (result == null || result.PostId != postId)
+            {
+                return NotFound();
+            }
+
+            CommentResponse response = new CommentResponse(
+                updatedComment.Id,
+                updatedComment.PostId,
+                updatedComment.Text
+            );
+
+            return Ok(response);
         }
-
-        CommentResponse response = new CommentResponse(
-            updatedComment.Id,
-            updatedComment.PostId,
-            updatedComment.Text
-        );
-
-        return Ok(response);
+        catch
+        {
+            return NotFound("Comment not Found.");
+        }
     }
 }
