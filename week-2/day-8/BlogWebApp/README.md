@@ -2,15 +2,15 @@
 This is a simple Blog API created with ASP.NET. The project follows the clean architecture principles and has a generic repository pattern implementation.
 
 ## Table of Contents
-- 1. [Project Setup](#project-setup)
-- 2. [Endpoints](#endpoints)
-    - 2.1. [Post](#1-post)
-    - 2.2. [Comment](#2-comment)
-- 3. [Other Features](#other-features)
-    - 3.1. [Error Handling](#1-error-handling)
-    - 3.2. [HTTP Response Code](#2-http-response-code)
-    - 3.3. [Robust Dependency Injection](#3-robust-dependency-injection)
-    - 3.4. [App Settings file](#4-app-settings-file)
+- 1. [Project Setup](#1-project-setup)
+- 2. [Endpoints](#2-endpoints)
+    - 2.1. [Post](#2-1-post)
+    - 2.2. [Comment](#2-2-comment)
+- 3. [Other Features](#3-other-features)
+    - 3.1. [Error Handling](#3-1error-handling)
+    - 3.2. [HTTP Response Codes](#3-2-http-response-code)
+    - 3.3. [Robust Dependency Injection](#3-3-robust-dependency-injection)
+    - 3.4. [App Settings file](#3-4-app-settings-file)
 
 
 ## 1. Project Setup
@@ -18,25 +18,22 @@ As mentioned before, the project follows a minimal version of the Clean Architec
 
 ```bash
 BlogWebAppSolution
-├── BlogWebApp.WebApi
-│   ├── Controllers
-│   ├── appSettings.json
-│   ├── Program.cs
-│   └── Startup.cs
-├── BlogWebApp.Domain
-│   ├── Entities
-│   └── ValueObjects (if applicable)
-├── BlogWebApp.Application
-│   ├── Interfaces
-│   ├── Services
-│   ├── CustomExceptions
-│   └── DependencyInjection.cs
-├── BlogWebApp.Infrastructure
-│   ├── Data
-│   ├── Repositories
-│   └── DependencyInjection.cs
-└── BlogWebApp.Contracts
-    └── ContentNegotiation (if applicable)
+├───BlogWebApp.WebApi - The main project, it is the entry point of the application.
+│   ├───Controllers
+│   ├───appSettings.json
+│   └───Program.cs
+├───BlogWebApp.Domain - The core of the application, it contains the entities Post and Comment.
+│   └───Entities
+├───BlogWebApp.Application - The application layer, it contains the business logic of the application.
+│   ├───Interfaces
+│   ├───Services
+│   ├───CustomExceptions
+│   └───DependencyInjection.cs
+├───BlogWebApp.Infrastructure - The infrastructure layer, it contains connections to the database and handles all operations on the database.
+│   ├───Data
+│   ├───Repositories
+│   └───DependencyInjection.cs
+└─── BlogWebApp.Contracts - This is introduced to implement a consistent content negotiation between the WebApi and the Application layer.
 ```
 
 Out of the 5 projects in the solution, only the WebApi is an ASP.NET Web Api project and the rest are just Class Libraries (as they should be).
