@@ -9,22 +9,25 @@ As mentioned before, the project follows a minimal version of the Clean Architec
 
 ```bash
 BlogWebAppSolution
-├───BlogWebApp.WebApi - The main project, it is the entry point of the application.
-│   ├───Controllers
-│   ├───appSettings.json
-│   ├───Program.cs
-├───BlogWebApp.Domain - The core of the application, it contains the entities Post and Comment.
-│   ├───Entities
-├───BlogWebApp.Application - The application layer, it contains the business logic of the application.
-│   ├───Interfaces
-│   ├───Services
-│   ├───CustomExceptions
-│   ├───DependencyInjection.cs
-├───BlogWebApp.Infrastructure - The infrastructure layer, it contains connections to the database and handles all operations on the database.
-│   ├───Data
-│   ├───Repositories
-│   ├───DependencyInjection.cs
-├───BlogWebApp.Contracts - This is introduced to implement a consistent content negotiation between the WebApi and the Application layer.
+├── BlogWebApp.WebApi
+│   ├── Controllers
+│   ├── appSettings.json
+│   ├── Program.cs
+│   └── Startup.cs
+├── BlogWebApp.Domain
+│   ├── Entities
+│   └── ValueObjects (if applicable)
+├── BlogWebApp.Application
+│   ├── Interfaces
+│   ├── Services
+│   ├── CustomExceptions
+│   └── DependencyInjection.cs
+├── BlogWebApp.Infrastructure
+│   ├── Data
+│   ├── Repositories
+│   └── DependencyInjection.cs
+└── BlogWebApp.Contracts
+    └── ContentNegotiation (if applicable)
 ```
 
 Out of the 5 projects in the solution, only the WebApi is an ASP.NET Web Api project and the rest are just Class Libraries (as they should be).
