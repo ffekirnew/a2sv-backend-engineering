@@ -1,3 +1,4 @@
+using BlogWebApp.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BlogWebApp.Application;
@@ -5,8 +6,8 @@ namespace BlogWebApp.Application;
 public static class DependencyInjection {
   public static IServiceCollection AddApplication(this IServiceCollection services)
   {
-    services.AddScoped<PostsApplication>();
-    services.AddScoped<CommentsApplication>();
+    services.AddScoped<PostsService>();
+    services.AddScoped<CommentsService>();
 
     return services;
   }

@@ -1,4 +1,4 @@
-using BlogWebApp.Application;
+using BlogWebApp.Application.Services;
 using BlogWebApp.Application.CustomExceptions;
 using BlogWebApp.Contracts.Post;
 using BlogWebApp.Domain.Entities;
@@ -10,11 +10,11 @@ namespace BlogWebApp.WebApi.Controllers;
 [Route("posts")]
 public class PostsController : ControllerBase
 {
-    private readonly PostsApplication _postsApplication;
+    private readonly PostsService _postsService;
 
-    public PostsController(PostsApplication postsApplication)
+    public PostsController(PostsService postsService)
     {
-        _postsApplication = postsApplication;
+        _postsService = postsService;
     }
 
     [HttpGet]
@@ -22,7 +22,7 @@ public class PostsController : ControllerBase
     {
         try
         {
-            var posts = _postsApplication.GetAllPosts();
+            var posts = _postsService.GetAllPosts();
             List<PostResponse> response = new();
 
             foreach (Post post in posts)
@@ -43,7 +43,7 @@ public class PostsController : ControllerBase
         try
         {
             // Make application call
-            Post post = _postsApplication.AddNewPost(
+            Post post = _postsService.AddNewPost(
                 new Post() { Title = request.Title, Content = request.Content }
             );
             // Reformat in in the response format
@@ -66,7 +66,7 @@ public class PostsController : ControllerBase
     {
         try
         {
-            var post = _postsApplication.GetPost(id);
+            var post = _postsService.GetPost(id);
             var response = new PostResponse(post.Id, post.Title, post.Content, post.CreatedAt);
             return Ok(response);
         }
@@ -86,7 +86,7 @@ public class PostsController : ControllerBase
         try
         {
             var postRequest = new Post() { Title = request.Title, Content = request.Content };
-            var updatedPost = _postsApplication.UpdatePost(id, postRequest);
+            var updatedPost = _postsService.UpdatePost(id, postRequest);
             var response = new PostResponse(
                 updatedPost.Id,
                 updatedPost.Title,
@@ -111,7 +111,7 @@ public class PostsController : ControllerBase
     {
         try
         {
-            _postsApplication.DeletePost(id);
+            _postsService.DeletePost(id);
 
             return NoContent();
         }

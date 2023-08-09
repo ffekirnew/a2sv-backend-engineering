@@ -1,5 +1,5 @@
-using BlogWebApp.Application;
 using BlogWebApp.Application.CustomExceptions;
+using BlogWebApp.Application.Services;
 using BlogWebApp.Contracts.Comment;
 using BlogWebApp.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -10,11 +10,11 @@ namespace BlogWebApp.WebApi.Controllers;
 [Route("posts/{postId}/comments")]
 public class ComentsController : ControllerBase
 {
-    private readonly CommentsApplication _commentsApplication;
+    private readonly CommentsService _commentsService;
 
-    public ComentsController(CommentsApplication commentsApplication)
+    public ComentsController(CommentsService commentsService)
     {
-        _commentsApplication = commentsApplication;
+        _commentsService = commentsService;
     }
 
     [HttpGet]
@@ -22,7 +22,7 @@ public class ComentsController : ControllerBase
     {
         try
         {
-            var comments = _commentsApplication.GetAllCommentsOfPost(postId);
+            var comments = _commentsService.GetAllCommentsOfPost(postId);
 
             var response = new List<CommentResponse>();
 
@@ -49,7 +49,7 @@ public class ComentsController : ControllerBase
         try
         {
             var commentRequest = new Comment() { PostId = postId, Text = request.Text };
-            var createdComment = _commentsApplication.AddNewComment(commentRequest);
+            var createdComment = _commentsService.AddNewComment(commentRequest);
 
             var response = new CommentResponse(createdComment.Id, createdComment.Text);
             return CreatedAtAction(actionName: nameof(GetComment), routeValues: createdComment.Id, value: response);
@@ -69,7 +69,7 @@ public class ComentsController : ControllerBase
     {
         try
         {
-            var comment = _commentsApplication.GetComment(commentId);
+            var comment = _commentsService.GetComment(commentId);
 
             var response = new CommentResponse(comment.Id, comment.Text);
             return Ok(response);
@@ -90,7 +90,7 @@ public class ComentsController : ControllerBase
         try
         {
             var commentRequest = new Comment() { Text = request.Text };
-            var updatedComment = _commentsApplication.UpdateComment(commentId, commentRequest);
+            var updatedComment = _commentsService.UpdateComment(commentId, commentRequest);
 
             var response = new CommentResponse(updatedComment.Id, updatedComment.Text);
             return Ok(response);
@@ -110,7 +110,7 @@ public class ComentsController : ControllerBase
     {
         try
         {
-            _commentsApplication.DeleteComment(commentId);
+            _commentsService.DeleteComment(commentId);
             return NoContent();
         }
         catch (EntityNotFoundException e)

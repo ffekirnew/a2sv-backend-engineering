@@ -1,13 +1,13 @@
 using BlogWebApp.Application.Interfaces;
 using BlogWebApp.Domain.Entities;
 
-namespace BlogWebApp.Application;
+namespace BlogWebApp.Application.Services;
 
-public class PostsApplication
+public class PostsService
 {
     private readonly IPostRepository _postRepository;
 
-    public PostsApplication(IPostRepository postRepository)
+    public PostsService(IPostRepository postRepository)
     {
         _postRepository = postRepository;
     }

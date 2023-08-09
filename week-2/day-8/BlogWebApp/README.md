@@ -2,9 +2,18 @@
 This is a simple Blog API created with ASP.NET. The project follows the clean architecture principles and has a generic repository pattern implementation.
 
 ## Table of Contents
-`TODO`
+- 1. [Project Setup](#project-setup)
+- 2. [Endpoints](#endpoints)
+    - 2.1. [Post](#1-post)
+    - 2.2. [Comment](#2-comment)
+- 3. [Other Features](#other-features)
+    - 3.1. [Error Handling](#1-error-handling)
+    - 3.2. [HTTP Response Code](#2-http-response-code)
+    - 3.3. [Robust Dependency Injection](#3-robust-dependency-injection)
+    - 3.4. [App Settings file](#4-app-settings-file)
 
-## Project Setup
+
+## 1. Project Setup
 As mentioned before, the project follows a minimal version of the Clean Architecture. To implement it, the solution is setup in the following file tree structure (With only the most outstanding files and folders included) - a brief description of what they do is also included.
 
 ```bash
@@ -39,11 +48,11 @@ The direct dependency between the projects is as follows:
 The inverted dependency between the projects is as follows (which are later injected via the DependencyInjection package):
 - BlogWebApp.Application -> BlogWebApp.Infrastructure
 
-## Endpoints
+## 2. Endpoints
 ![image](https://github.com/ffekirnew/a2sv-backend-engineering/assets/98191496/fb928263-2f7e-4c99-bc40-037200348008)
 The end-points of this application can be generally divided into two categories: [Post](#1-post) and [Comment](#2-comment).
 The end-points of this api are based on the REST architecture. The request and response formats are in JSON. They are described below. Then the end points will follow:
-### 1. Post
+### 2.1. Post
 #### Request Format
 ```js
 {
@@ -87,7 +96,7 @@ PUT /posts/{id}
 DELETE /posts/{id}
 ```
 
-### 2. Comment
+### 2.2. Comment
 #### Request Format
 ```js
 {
@@ -130,21 +139,21 @@ PUT /posts/{postId}/comments/{id}
 DELETE /posts/{postId}/comments/{id}
 ```
 
-## Other Features
-### 1. Error Handling
+## 3. Other Features
+### 3.1. Error Handling
 The application has a custom exception handling mechanism. The exceptions are handled in the Application layer and are then passed to the WebApi layer. The WebApi layer then returns the appropriate response to the client. The custom exceptions are as follows:
 - EntityNotFoundException
 - InternalServerException
 
-### 2. HTTP Response Code
+### 3.2. HTTP Response Code
 The application returns the appropriate HTTP response code for each request. The response codes are as follows:
 - 200 - OK
 - 201 - created
 - 204 - no content
 - 404 - not found
 
-### 3. Robust Dependency Injection
+### 3.3. Robust Dependency Injection
 The application uses the built-in dependency injection mechanism of ASP.NET. The dependency injection is done in the WebApi project and is then passed to the Application layer. The Application layer then passes the dependency to the Infrastructure layer. The dependency injection is done in the following files:
 
-### 4. App Settings file
+### 3.4. App Settings file
 The application has an appSettings.json file which contains the connection string to the database. The file is located in the WebApi project.

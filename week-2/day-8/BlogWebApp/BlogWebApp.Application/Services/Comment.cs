@@ -1,14 +1,14 @@
 using BlogWebApp.Application.Interfaces;
 using BlogWebApp.Domain.Entities;
 
-namespace BlogWebApp.Application;
+namespace BlogWebApp.Application.Services;
 
-public class CommentsApplication
+public class CommentsService
 {
     private readonly ICommentRepository _commentRepository;
     private readonly IPostRepository _postRepository;
 
-    public CommentsApplication(ICommentRepository commentRepository, IPostRepository postRepository)
+    public CommentsService(ICommentRepository commentRepository, IPostRepository postRepository)
     {
         _commentRepository = commentRepository;
         _postRepository = postRepository;
