@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dDdRpTZ9tsEibOHIa9Y9G7KWxbGpQhqp8XIA0XUgj/A=",
+  "Source": "BlogWebApp.WebApi",
+  "BasePath": "_content/BlogWebApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

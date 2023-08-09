@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "711XfqNzkS9ybrt9g7/L33GBHmYsx24Od2wtXpqt4WjVYTfRpQzdZ0kZ7c1WPxFgD6JGGO4FoPvqJ9VCzwrj9Q==",
+  "success": true,
+  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/BlogWebApp.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/ffekirnew/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

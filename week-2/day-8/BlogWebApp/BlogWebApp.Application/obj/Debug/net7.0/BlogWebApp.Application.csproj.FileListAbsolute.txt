@@ -1,0 +1,15 @@
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/bin/Debug/net7.0/BlogWebApp.Application.deps.json
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/bin/Debug/net7.0/BlogWebApp.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/bin/Debug/net7.0/BlogWebApp.Application.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/bin/Debug/net7.0/BlogWebApp.Domain.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/bin/Debug/net7.0/BlogWebApp.Domain.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.AssemblyInfo.cs
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.csproj.CopyComplete
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/refint/BlogWebApp.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/BlogWebApp.Application.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-2/day-8/BlogWebApp/BlogWebApp.Application/obj/Debug/net7.0/ref/BlogWebApp.Application.dll
