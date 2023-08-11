@@ -2,7 +2,7 @@ using HRLeaveManagement.Domain.Entite.Common;
 
 namespace HRLeaveManagement.Domain.Entites;
 
-class LeaveRequest : BaseDomainEntity
+public class LeaveRequest : BaseDomainEntity
 {
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
