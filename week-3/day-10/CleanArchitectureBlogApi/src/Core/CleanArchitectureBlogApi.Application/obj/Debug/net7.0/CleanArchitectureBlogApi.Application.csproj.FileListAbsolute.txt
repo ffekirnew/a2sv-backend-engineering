@@ -1,0 +1,15 @@
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/bin/Debug/net7.0/CleanArchitectureBlogApi.Application.deps.json
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/bin/Debug/net7.0/CleanArchitectureBlogApi.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/bin/Debug/net7.0/CleanArchitectureBlogApi.Application.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/bin/Debug/net7.0/CleanArchitectureBlogApi.Domain.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/bin/Debug/net7.0/CleanArchitectureBlogApi.Domain.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.csproj.AssemblyReference.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.AssemblyInfoInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.AssemblyInfo.cs
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.csproj.CopyComplete
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/refint/CleanArchitectureBlogApi.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/CleanArchitectureBlogApi.Application.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/Debug/net7.0/ref/CleanArchitectureBlogApi.Application.dll
