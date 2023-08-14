@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aPKdq91dPtv+Ap07BExrb+vwQHUUQ8Ks+6LgKjw8998/EN8zdxjLoYZyHZ3ZPsYSkWYpL2NKdWhqWv5ky4f6Lg==",
+  "dgSpecHash": "PqJoBdCT2Gxyh2Qie6sBbdHz8ycplRt4f791u7IcfQ+yKObe9gOPDSP0Jizgq7ZiHTwDhWU1d+3DGTj21or0/w==",
   "success": true,
-  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
+  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
