@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{90E07A9A-5FBF-4D6A-80BE-FFE678EBFFA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{24898601-AFFB-4B14-B7CA-5094ADFAA4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureBlogApi.Application", "src\Core\CleanArchitectureBlogApi.Application\CleanArchitectureBlogApi.Application.csproj", "{116B6A60-4C2A-444E-AB6E-842EDEDF36F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitectureBlogApi.Domain", "src\Core\CleanArchitectureBlogApi.Domain\CleanArchitectureBlogApi.Domain.csproj", "{980FA0B5-A9AF-4ADA-BAA3-D096C2770008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{116B6A60-4C2A-444E-AB6E-842EDEDF36F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116B6A60-4C2A-444E-AB6E-842EDEDF36F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116B6A60-4C2A-444E-AB6E-842EDEDF36F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116B6A60-4C2A-444E-AB6E-842EDEDF36F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980FA0B5-A9AF-4ADA-BAA3-D096C2770008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980FA0B5-A9AF-4ADA-BAA3-D096C2770008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980FA0B5-A9AF-4ADA-BAA3-D096C2770008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980FA0B5-A9AF-4ADA-BAA3-D096C2770008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24898601-AFFB-4B14-B7CA-5094ADFAA4A9} = {90E07A9A-5FBF-4D6A-80BE-FFE678EBFFA2}
+		{116B6A60-4C2A-444E-AB6E-842EDEDF36F7} = {24898601-AFFB-4B14-B7CA-5094ADFAA4A9}
+		{980FA0B5-A9AF-4ADA-BAA3-D096C2770008} = {24898601-AFFB-4B14-B7CA-5094ADFAA4A9}
+	EndGlobalSection
+EndGlobal
