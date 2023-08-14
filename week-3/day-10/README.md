@@ -1,7 +1,7 @@
 # Day 10
 
 ## Reources and Tasks
-1. [Clean Architecture with ASP.NET Core 7 | .NET Conf 2022](https://www.youtube.com/watch?v=j6u7Pw6dyUw) | Brief Summary: Steve Smith talks about the Clean Architecture and his template for creating ASP.NET web applications with c#. It talks briefly about the clean architecture (how it is a domain-centric architecture, how dependence on infrastructural dependencies is minimized), and then describes his template which can be found on NuGet layer by layer.
+1. [Clean Architecture with ASP.NET Core 7 | .NET Conf 2022](https://www.youtube.com/watch?v=j6u7Pw6dyUw) | Brief Summary: Steve Smith talks about the Clean Architecture and his template for creating ASP.NET web applications with C#. He talks briefly about the clean architecture (how it is a domain-centric architecture, how dependence on infrastructural dependencies is minimized), and then describes his template which can be found on NuGet layer by layer.
 
 2. [001 Introduction.mp4](https://drive.google.com/file/d/10SP5xneVESe43IcNxWcorKPqFqxKViXO/view?usp=sharing) | Brief Summary: Trevor Williams, the creator of the course describes about what is going to be built, what the expected knowledge to be gained is, and what the course requirements are.
 
