@@ -9,7 +9,7 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<BlogPost, BlogPostDto>();
-        CreateMap<Comment, CommentDto>();
+        CreateMap<BlogPost, BlogPostListDto>();
+        CreateMap<Comment, CommentListDto>();
     }
 }

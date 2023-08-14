@@ -6,7 +6,7 @@ using MediatR;
 
 namespace CleanArchtectureBlogApi.Application.Features.Comments.Handlers.Queries;
 
-public class GetCommentListRequestHandler : IRequestHandler<GetCommentListRequest, List<CommentDto>>
+public class GetCommentListRequestHandler : IRequestHandler<GetCommentListRequest, List<CommentListDto>>
 {
     private readonly ICommentRepository _commentRepository;
     private readonly IMapper _mapper;
@@ -17,12 +17,12 @@ public class GetCommentListRequestHandler : IRequestHandler<GetCommentListReques
         _mapper = mapper;
     }
 
-    public async Task<List<CommentDto>> Handle(
+    public async Task<List<CommentListDto>> Handle(
         GetCommentListRequest request,
         CancellationToken cancellationToken
     )
     {
         var comments = await _commentRepository.GetAll(request.PostId);
-        return _mapper.Map<List<CommentDto>>(comments);
+        return _mapper.Map<List<CommentListDto>>(comments);
     }
 }

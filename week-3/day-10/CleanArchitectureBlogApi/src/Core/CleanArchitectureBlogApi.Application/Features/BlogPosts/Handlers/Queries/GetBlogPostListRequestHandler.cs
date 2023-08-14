@@ -7,7 +7,7 @@ using MediatR;
 namespace CleanArchtectureBlogApi.Application.Features.BlogPosts.Handlers.Queries;
 
 public class GetBlogPostListRequestHandler
-    : IRequestHandler<GetBlogPostListRequest, List<BlogPostDto>>
+    : IRequestHandler<GetBlogPostListRequest, List<BlogPostListDto>>
 {
     private readonly IBlogPostRepository _blogPostRepository;
     private readonly IMapper _mapper;
@@ -18,12 +18,12 @@ public class GetBlogPostListRequestHandler
         _mapper = mapper;
     }
 
-    public async Task<List<BlogPostDto>> Handle(
+    public async Task<List<BlogPostListDto>> Handle(
         GetBlogPostListRequest request,
         CancellationToken cancellationToken
     )
     {
         var blogPosts = await _blogPostRepository.GetAll();
-        return _mapper.Map<List<BlogPostDto>>(blogPosts);
+        return _mapper.Map<List<BlogPostListDto>>(blogPosts);
     }
 }
