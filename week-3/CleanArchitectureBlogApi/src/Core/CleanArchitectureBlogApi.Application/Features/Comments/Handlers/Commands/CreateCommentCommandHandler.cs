@@ -11,16 +11,22 @@ public class CreateCommentCommandHandler : IRequestHandler<CreateCommentCommand,
 {
     private readonly ICommentRepository _commentRepository;
     private readonly IMapper _mapper;
+    private readonly IBlogPostRepository _blogPostRepository;
 
-    public CreateCommentCommandHandler(ICommentRepository commentRepository, IMapper mapper)
+    public CreateCommentCommandHandler(
+        ICommentRepository commentRepository,
+        IMapper mapper,
+        IBlogPostRepository blogPostRepository
+    )
     {
         _commentRepository = commentRepository;
         _mapper = mapper;
+        _blogPostRepository = blogPostRepository;
     }
 
     public async Task<int> Handle(CreateCommentCommand request, CancellationToken cancellationToken)
     {
-        var dtoValidator = new CommentCreateDtoValidator();
+        var dtoValidator = new CommentCreateDtoValidator(_blogPostRepository);
         var validationResult = dtoValidator.Validate(request.CommentCreateDto);
 
         if (!validationResult.IsValid)

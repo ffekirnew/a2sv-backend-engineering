@@ -11,11 +11,17 @@ public class UpdateCommentCommandHandler : IRequestHandler<UpdateCommentCommand,
 {
     private readonly ICommentRepository _commentRepository;
     private readonly IMapper _mapper;
+    private readonly IBlogPostRepository _blogPostRepository;
 
-    public UpdateCommentCommandHandler(ICommentRepository commentRepository, IMapper mapper)
+    public UpdateCommentCommandHandler(
+        ICommentRepository commentRepository,
+        IBlogPostRepository blogPostRepository,
+        IMapper mapper
+    )
     {
         _commentRepository = commentRepository;
         _mapper = mapper;
+        _blogPostRepository = blogPostRepository;
     }
 
     public async Task<Unit> Handle(
@@ -23,10 +29,10 @@ public class UpdateCommentCommandHandler : IRequestHandler<UpdateCommentCommand,
         CancellationToken cancellationToken
     )
     {
-        var dtoValidator = new CommentUpdateDtoValidator();
+        var dtoValidator = new CommentUpdateDtoValidator(_blogPostRepository);
         var validationResult = dtoValidator.Validate(request.CommentUpdateDto);
 
-        if (!validationResult.IsValid)
+        if (validationResult.IsValid == false)
             throw new Exception();
 
         var comment = _mapper.Map<Comment>(request.CommentUpdateDto);
