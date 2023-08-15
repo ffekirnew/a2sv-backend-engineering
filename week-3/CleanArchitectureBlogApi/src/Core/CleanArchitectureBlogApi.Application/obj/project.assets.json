@@ -423,11 +423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
+      "projectUniqueName": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
       "projectName": "CleanArchitectureBlogApi.Application",
-      "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
+      "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
       "packagesPath": "/home/ffekirnew/.nuget/packages/",
-      "outputPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/",
+      "outputPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ffekirnew/.nuget/NuGet/NuGet.Config"
@@ -442,8 +442,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj": {
-              "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj"
+            "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj": {
+              "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj"
             }
           }
         }

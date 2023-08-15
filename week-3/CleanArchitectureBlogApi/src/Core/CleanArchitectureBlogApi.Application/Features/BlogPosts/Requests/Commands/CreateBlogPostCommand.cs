@@ -5,5 +5,5 @@ namespace CleanArchtectureBlogApi.Application.Features.BlogPosts.Requests.Comman
 
 public class CreateBlogPostCommand : IRequest<int>
 {
-    public BlogPostDto BlogPostDto { get; set; } = null!;
+    public BlogPostCreateDto BlogPostCreateDto { get; set; } = null!;
 }

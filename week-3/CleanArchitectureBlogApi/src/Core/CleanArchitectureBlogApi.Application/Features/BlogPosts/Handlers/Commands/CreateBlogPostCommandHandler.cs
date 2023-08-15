@@ -22,7 +22,7 @@ public class CreateBlogPostCommandHandler : IRequestHandler<CreateBlogPostComman
         CancellationToken cancellationToken
     )
     {
-        var blogPost = _mapper.Map<BlogPost>(request.BlogPostDto);
+        var blogPost = _mapper.Map<BlogPost>(request.BlogPostCreateDto);
         blogPost = await _blogPostRepository.Create(blogPost);
 
         return blogPost.Id;

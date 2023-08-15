@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
+      "projectUniqueName": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
       "projectName": "CleanArchitectureBlogApi.Domain",
-      "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
+      "projectPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/CleanArchitectureBlogApi.Domain.csproj",
       "packagesPath": "/home/ffekirnew/.nuget/packages/",
-      "outputPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/obj/",
+      "outputPath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ffekirnew/.nuget/NuGet/NuGet.Config"

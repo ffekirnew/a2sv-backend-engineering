@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TOmU2vAtGvhSWDpk+QqelOZJ9KfVcyFCSSZKLY7Mxsn4SuDISt7Jqb8jal/FGkqs8dKQJzFNfrHizDpE+Qp0mA==",
+  "dgSpecHash": "r/ckxkpyGX4+E3JBAabObuNSrqvdvZT9/YhxbrJ7CPs/jzXiEyCYo38uCeiKO9uxEFv4m3/swcX3TenAj3ZM2w==",
   "success": true,
-  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/day-10/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
+  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Core/CleanArchitectureBlogApi.Application/CleanArchitectureBlogApi.Application.csproj",
   "expectedPackageFiles": [
     "/home/ffekirnew/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/ffekirnew/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

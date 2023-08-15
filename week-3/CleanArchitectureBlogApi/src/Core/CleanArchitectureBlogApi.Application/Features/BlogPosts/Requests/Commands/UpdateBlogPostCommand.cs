@@ -3,8 +3,8 @@ using MediatR;
 
 namespace CleanArchtectureBlogApi.Application.Features.BlogPosts.Requests.Commands;
 
-public class UpdateBlogPostCommand : IRequest<int>
+public class UpdateBlogPostCommand : IRequest<Unit>
 {
     public int Id { get; set; }
-    public BlogPostDto BlogPostDto { get; set; } = null!;
+    public BlogPostUpdateDto BlogPostUpdateDto { get; set; } = null!;
 }
