@@ -1,5 +1,6 @@
 using AutoMapper;
 using CleanArchitectureBlogApi.Domain.Entities;
+using CleanArchtectureBlogApi.Application.DTOs.Common.Validators;
 using CleanArchtectureBlogApi.Application.Features.Comments.Requests.Commands;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using MediatR;
@@ -22,6 +23,12 @@ public class UpdateCommentCommandHandler : IRequestHandler<UpdateCommentCommand,
         CancellationToken cancellationToken
     )
     {
+        var dtoValidator = new CommentUpdateDtoValidator();
+        var validationResult = dtoValidator.Validate(request.CommentUpdateDto);
+
+        if (!validationResult.IsValid)
+            throw new Exception();
+
         var comment = _mapper.Map<Comment>(request.CommentUpdateDto);
         await _commentRepository.Update(request.Id, comment);
 
