@@ -21,7 +21,7 @@ public class DeleteCommentCommandHandler : IRequestHandler<DeleteCommentCommand,
         CancellationToken cancellationToken
     )
     {
-      await _commentRepository.Delete(request.Id);
+        await _commentRepository.Delete(request.Id);
         return Unit.Value;
     }
 }
