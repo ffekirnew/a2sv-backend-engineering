@@ -1,7 +1,7 @@
 using CleanArchitectureBlogApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitectureBlogApi.Persistnece;
+namespace CleanArchitectureBlogApi.Persistence;
 
 public class CleanArchitectureBlogApiDbContext : DbContext
 {
