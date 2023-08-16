@@ -1,8 +1,7 @@
-using CleanArchtectureBlogApi.Application.DTOs.Comment;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using FluentValidation;
 
-namespace CleanArchtectureBlogApi.Application.DTOs.Common.Validators;
+namespace CleanArchtectureBlogApi.Application.DTOs.Comment.Validators;
 
 public class CommentCreateDtoValidator : AbstractValidator<CommentCreateDto>
 {
@@ -11,6 +10,7 @@ public class CommentCreateDtoValidator : AbstractValidator<CommentCreateDto>
     public CommentCreateDtoValidator(IBlogPostRepository blogPostRepository)
     {
         _blogPostRepository = blogPostRepository;
+        Include(new ICommentDtoValidator());
 
         RuleFor(c => c.PostId)
             .GreaterThan(0)

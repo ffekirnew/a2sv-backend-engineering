@@ -1,8 +1,7 @@
-using CleanArchtectureBlogApi.Application.DTOs.Comment;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using FluentValidation;
 
-namespace CleanArchtectureBlogApi.Application.DTOs.Common.Validators;
+namespace CleanArchtectureBlogApi.Application.DTOs.Comment.Validators;
 
 public class CommentUpdateDtoValidator : AbstractValidator<CommentUpdateDto>
 {
@@ -11,6 +10,7 @@ public class CommentUpdateDtoValidator : AbstractValidator<CommentUpdateDto>
     public CommentUpdateDtoValidator(IBlogPostRepository blogPostRepository)
     {
         _blogPostRepository = blogPostRepository;
+        Include(new ICommentDtoValidator());
 
         RuleFor(c => c.PostId)
             .GreaterThan(0)
@@ -23,13 +23,5 @@ public class CommentUpdateDtoValidator : AbstractValidator<CommentUpdateDto>
                 }
             )
             .WithMessage("{PropertyName} doesn't exist.");
-
-        RuleFor(c => c.Text)
-            .NotEmpty()
-            .WithMessage("{PropertyName} is required.")
-            .MaximumLength(1000)
-            .WithMessage("{PropertyName} must not exceed 1000 characters.")
-            .MinimumLength(3)
-            .WithMessage("{PropertyName} must be at least 3 characters.");
     }
 }
