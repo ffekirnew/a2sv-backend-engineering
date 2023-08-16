@@ -1,4 +1,4 @@
-namespace CleanArchtectureBlogApi.Application.Persistence.Contract;
+namespace CleanArchtectureBlogApi.Application.Contracts.Persistence;
 
 public interface IGenericRepository<T>
 {

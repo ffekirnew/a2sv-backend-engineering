@@ -1,7 +1,7 @@
 using AutoMapper;
 using CleanArchtectureBlogApi.Application.DTOs.Comment;
 using CleanArchtectureBlogApi.Application.Features.Comments.Requests.Queries;
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 using MediatR;
 
 namespace CleanArchtectureBlogApi.Application.Features.Comments.Handlers.Queries;

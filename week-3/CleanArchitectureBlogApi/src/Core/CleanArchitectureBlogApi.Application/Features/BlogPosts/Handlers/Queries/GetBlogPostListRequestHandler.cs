@@ -1,7 +1,7 @@
 using AutoMapper;
 using CleanArchtectureBlogApi.Application.DTOs.BlogPost;
 using CleanArchtectureBlogApi.Application.Features.BlogPosts.Requests.Queries;
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 using MediatR;
 
 namespace CleanArchtectureBlogApi.Application.Features.BlogPosts.Handlers.Queries;

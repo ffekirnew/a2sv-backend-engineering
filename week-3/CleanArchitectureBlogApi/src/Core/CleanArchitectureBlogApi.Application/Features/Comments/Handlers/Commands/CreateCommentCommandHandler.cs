@@ -3,7 +3,7 @@ using CleanArchitectureBlogApi.Domain.Entities;
 using CleanArchtectureBlogApi.Application.DTOs.Comment.Validators;
 using CleanArchtectureBlogApi.Application.Exceptions;
 using CleanArchtectureBlogApi.Application.Features.Comments.Requests.Commands;
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 using MediatR;
 
 namespace CleanArchtectureBlogApi.Application.Features.Comments.Handlers.Commands;

@@ -1,6 +1,6 @@
 using CleanArchitectureBlogApi.Domain.Entities;
 
-namespace CleanArchtectureBlogApi.Application.Persistence.Contract;
+namespace CleanArchtectureBlogApi.Application.Contracts.Persistence;
 
 public interface IBlogPostRepository : IGenericRepository<BlogPost>
 {

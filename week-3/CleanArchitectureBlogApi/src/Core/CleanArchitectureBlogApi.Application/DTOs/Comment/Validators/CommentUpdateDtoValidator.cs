@@ -1,4 +1,4 @@
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 using FluentValidation;
 
 namespace CleanArchtectureBlogApi.Application.DTOs.Comment.Validators;
