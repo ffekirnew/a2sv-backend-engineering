@@ -1,4 +1,6 @@
 using AutoMapper;
+using CleanArchitectureBlogApi.Domain.Entities;
+using CleanArchtectureBlogApi.Application.Exceptions;
 using CleanArchtectureBlogApi.Application.Features.BlogPosts.Requests.Commands;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using MediatR;
@@ -21,6 +23,9 @@ public class DeleteBlogPostCommandHandler : IRequestHandler<DeleteBlogPostComman
         CancellationToken cancellationToken
     )
     {
+        var blogPost = await _blogPostRepository.Get(request.Id);
+        if (blogPost == null)
+            throw new NotFoundException(nameof(BlogPost), request.Id);
         await _blogPostRepository.Delete(request.Id);
         return Unit.Value;
     }

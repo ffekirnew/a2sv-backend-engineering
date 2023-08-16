@@ -1,6 +1,7 @@
 using AutoMapper;
 using CleanArchitectureBlogApi.Domain.Entities;
-using CleanArchtectureBlogApi.Application.DTOs.Common.Validators;
+using CleanArchtectureBlogApi.Application.DTOs.Comment.Validators;
+using CleanArchtectureBlogApi.Application.Exceptions;
 using CleanArchtectureBlogApi.Application.Features.Comments.Requests.Commands;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using MediatR;
@@ -30,7 +31,7 @@ public class CreateCommentCommandHandler : IRequestHandler<CreateCommentCommand,
         var validationResult = dtoValidator.Validate(request.CommentCreateDto);
 
         if (!validationResult.IsValid)
-            throw new Exception();
+            throw new ValidationException(validationResult);
         var comment = _mapper.Map<Comment>(request.CommentCreateDto);
         comment = await _commentRepository.Create(comment);
 

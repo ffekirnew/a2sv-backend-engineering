@@ -1,6 +1,7 @@
 using AutoMapper;
 using CleanArchitectureBlogApi.Domain.Entities;
 using CleanArchtectureBlogApi.Application.DTOs.BlogPost.Validators;
+using CleanArchtectureBlogApi.Application.Exceptions;
 using CleanArchtectureBlogApi.Application.Features.BlogPosts.Requests.Commands;
 using CleanArchtectureBlogApi.Application.Persistence.Contract;
 using MediatR;
@@ -27,7 +28,7 @@ public class CreateBlogPostCommandHandler : IRequestHandler<CreateBlogPostComman
         var validationResult = dtoValidator.Validate(request.BlogPostCreateDto);
 
         if (!validationResult.IsValid)
-            throw new Exception();
+            throw new ValidationException(validationResult);
         var blogPost = _mapper.Map<BlogPost>(request.BlogPostCreateDto);
         blogPost = await _blogPostRepository.Create(blogPost);
 
