@@ -10,3 +10,8 @@
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/obj/Debug/net7.0/refint/CleanArchitectureBlogApi.Infrastructure.dll
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/obj/Debug/net7.0/CleanArchitectureBlogApi.Infrastructure.pdb
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/obj/Debug/net7.0/ref/CleanArchitectureBlogApi.Infrastructure.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/bin/Debug/net7.0/CleanArchitectureBlogApi.Application.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/bin/Debug/net7.0/CleanArchitectureBlogApi.Domain.dll
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/bin/Debug/net7.0/CleanArchitectureBlogApi.Application.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/bin/Debug/net7.0/CleanArchitectureBlogApi.Domain.pdb
+/home/ffekirnew/code/projects/a2sv-backend-engineering/week-3/CleanArchitectureBlogApi/src/Infrastructure/CleanArchitectureBlogApi.Infrastructure/obj/Debug/net7.0/CleanArchitectureBlogApi.Infrastructure.csproj.CopyComplete

@@ -1,6 +1,6 @@
 using CleanArchitectureBlogApi.Domain.Entities;
 using CleanArchitectureBlogApi.Persistence;
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchtectureBlogApi.Persistence.Repositories;

@@ -1,5 +1,5 @@
 using CleanArchitectureBlogApi.Persistence;
-using CleanArchtectureBlogApi.Application.Persistence.Contract;
+using CleanArchtectureBlogApi.Application.Contracts.Persistence;
 
 namespace CleanArchtectureBlogApi.Persistence.Repositories;
 
