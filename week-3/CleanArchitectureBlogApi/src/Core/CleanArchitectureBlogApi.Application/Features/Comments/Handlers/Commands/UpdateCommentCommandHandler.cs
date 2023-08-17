@@ -37,6 +37,7 @@ public class UpdateCommentCommandHandler : IRequestHandler<UpdateCommentCommand,
             throw new ValidationException(validationResult);
 
         var comment = _mapper.Map<Comment>(request.CommentUpdateDto);
+        comment.Id = request.Id;
         await _commentRepository.Update(request.Id, comment);
 
         return Unit.Value;

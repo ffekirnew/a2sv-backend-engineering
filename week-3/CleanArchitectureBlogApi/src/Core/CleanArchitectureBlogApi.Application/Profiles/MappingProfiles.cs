@@ -12,7 +12,9 @@ public class MappingProfile : Profile
         #region BlogPost Mappings
         CreateMap<BlogPost, BlogPostListDto>();
         CreateMap<BlogPost, BlogPostDto>();
-        CreateMap<BlogPost, BlogPostCreateDto>();
+
+        CreateMap<BlogPostCreateDto, BlogPost>();
+        CreateMap<BlogPostUpdateDto, BlogPost>();
         #endregion
 
         #region Comment Mappings
