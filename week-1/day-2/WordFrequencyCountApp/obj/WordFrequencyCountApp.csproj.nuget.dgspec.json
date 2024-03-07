@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/WordFrequencyCountApp.csproj": {}
+    "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/WordFrequencyCountApp.csproj": {}
   },
   "projects": {
-    "/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/WordFrequencyCountApp.csproj": {
+    "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/WordFrequencyCountApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/WordFrequencyCountApp.csproj",
+        "projectUniqueName": "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/WordFrequencyCountApp.csproj",
         "projectName": "WordFrequencyCountApp",
-        "projectPath": "/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/WordFrequencyCountApp.csproj",
+        "projectPath": "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/WordFrequencyCountApp.csproj",
         "packagesPath": "/home/ffekirnew/.nuget/packages/",
-        "outputPath": "/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/obj/",
+        "outputPath": "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ffekirnew/.nuget/NuGet/NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/ffekirnew/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/ffekirnew/.dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

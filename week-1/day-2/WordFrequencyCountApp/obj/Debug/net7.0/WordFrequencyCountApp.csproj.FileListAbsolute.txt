@@ -13,3 +13,17 @@
 /home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.pdb
 /home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.genruntimeconfig.cache
 /home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/WordFrequencyCountApp/obj/Debug/net7.0/ref/WordFrequencyCountApp.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/bin/Debug/net7.0/WordFrequencyCountApp
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/bin/Debug/net7.0/WordFrequencyCountApp.deps.json
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/bin/Debug/net7.0/WordFrequencyCountApp.runtimeconfig.json
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/bin/Debug/net7.0/WordFrequencyCountApp.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/bin/Debug/net7.0/WordFrequencyCountApp.pdb
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.AssemblyInfoInputs.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.AssemblyInfo.cs
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/refint/WordFrequencyCountApp.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.pdb
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/WordFrequencyCountApp.genruntimeconfig.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-2/WordFrequencyCountApp/obj/Debug/net7.0/ref/WordFrequencyCountApp.dll
