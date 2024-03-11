@@ -3,28 +3,18 @@ namespace LibraryCatalog.LibraryItems;
 
 public class MediaItem : ILibraryItem, ISearchableItem
 {
-    private string Title;
-    private string MediaType;
-    private int Duration;
+  private string Title;
+  private string MediaType;
+  private int Duration;
 
-    // Add a constructor that does not take a slug
-    public MediaItem(string title, string mediaType, int duration)
-    {
-        (Title, MediaType, Duration) = (title, mediaType, duration);
-    }
+  public MediaItem(string title, string mediaType, int duration)
+  {
+    (Title, MediaType, Duration) = (title, mediaType, duration);
+  }
 
-    public override string ToString()
-    {
-        return $"{Title} ({MediaType}, {Duration} minutes)";
-    }
+  public override string ToString() => $"{Title} ({MediaType}, {Duration} minutes)";
 
-    public string GetSlug()
-    {
-        return $"{Title}-{MediaType}-{Duration}";
-    }
+  public string GetSlug() => $"{Title}-{MediaType}-{Duration}";
 
-    public bool Matches(string query)
-    {
-        return Title.Contains(query) || MediaType.Contains(query);
-    }
+  public bool Matches(string query) => Title.Contains(query) || MediaType.Contains(query);
 }

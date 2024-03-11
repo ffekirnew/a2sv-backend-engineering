@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryCatalog
-build_property.ProjectDir = /home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-3/LibraryCatalog/
+build_property.ProjectDir = /home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-3/LibraryCatalog/
