@@ -2,9 +2,9 @@ namespace BuildingAShapeHierarchy.Shapes;
 
 public abstract class Shape
 {
-    internal string Name { get; }
+  internal string Name { get; }
 
-    protected Shape(string name) => Name = name;
+  protected Shape(string name) => Name = name;
 
-    internal virtual double CalculateArea() => 0.0;
+  internal virtual double CalculateArea() => 0.0;
 }

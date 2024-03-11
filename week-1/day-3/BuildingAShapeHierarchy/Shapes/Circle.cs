@@ -1,9 +1,10 @@
 namespace BuildingAShapeHierarchy.Shapes;
 
-class Circle : Shape {
-    private double Radius;
+class Circle : Shape
+{
+  private double Radius;
 
-    internal Circle(string name, double radius) : base(name) => Radius = radius;
+  internal Circle(string name, double radius) : base(name) => Radius = radius;
 
-    internal override double CalculateArea() => Math.PI * Radius * Radius;
+  internal override double CalculateArea() => Math.PI * Radius * Radius;
 }
