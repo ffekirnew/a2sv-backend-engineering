@@ -13,3 +13,17 @@
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.pdb
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.genruntimeconfig.cache
 /home/ffekirnew/code/projects/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/ref/TaskManager.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/bin/Debug/net7.0/TaskManager
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/bin/Debug/net7.0/TaskManager.deps.json
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/bin/Debug/net7.0/TaskManager.runtimeconfig.json
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/bin/Debug/net7.0/TaskManager.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/bin/Debug/net7.0/TaskManager.pdb
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfoInputs.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfo.cs
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.csproj.CoreCompileInputs.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/refint/TaskManager.dll
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.pdb
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/TaskManager.genruntimeconfig.cache
+/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/obj/Debug/net7.0/ref/TaskManager.dll

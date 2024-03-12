@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4reDAhIO9zBjkTvVV+/LQMKpaSe0kcPcJcQkYywmwpW6iTB5iQpEBv609C9WWGiDDbsY7tbVbB5oG/r0PR+YQ==",
+  "dgSpecHash": "zTFFeNYU96XyBIjnI1Cl7hpygfeW2ylRULS1+WqmY6RyV+83D15IRtlPsB5syoq/3Q9zpOOcoJGEqY3jt8K8GQ==",
   "success": true,
-  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-1/day-4/TaskManager/TaskManager.csproj",
+  "projectFilePath": "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-4/TaskManager/TaskManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
