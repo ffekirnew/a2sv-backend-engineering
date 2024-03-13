@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zqOw5i/EzHg+S7CDSU8zYHxQPVeKqplhn87nQfZRPTjWU4KTpju5jVPRnke0628IlQW/+bBt7Ex11Y0aI5qJ2A==",
+  "dgSpecHash": "633ZM4L/DCrocYfC5rAGJPDxG5wP4KE+JfndrYIf7A962HxIzM0biOFCt5C+lL/WLCwAmJDehSTcMBGAprHSRg==",
   "success": true,
-  "projectFilePath": "/home/ffekirnew/code/projects/a2sv-backend-engineering/week-1/day-5/StudentManagementSystem/StudentManagementSystem.csproj",
+  "projectFilePath": "/home/ffekirnew/code/a2sv/a2sv-backend-engineering/week-1/day-5/StudentManagementSystem/StudentManagementSystem.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
