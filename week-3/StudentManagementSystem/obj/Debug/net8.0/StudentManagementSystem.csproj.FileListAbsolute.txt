@@ -1,0 +1,15 @@
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/bin/Debug/net8.0/StudentManagementSystem
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/bin/Debug/net8.0/StudentManagementSystem.deps.json
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/bin/Debug/net8.0/StudentManagementSystem.runtimeconfig.json
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/bin/Debug/net8.0/StudentManagementSystem.dll
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/bin/Debug/net8.0/StudentManagementSystem.pdb
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.AssemblyInfoInputs.cache
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.AssemblyInfo.cs
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.csproj.CoreCompileInputs.cache
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.sourcelink.json
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.dll
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/refint/StudentManagementSystem.dll
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.pdb
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/StudentManagementSystem.genruntimeconfig.cache
+/Users/ffekirnew/code/workplaces/a2sv/a2sv-backend-engineering/week-3/StudentManagementSystem/obj/Debug/net8.0/ref/StudentManagementSystem.dll
