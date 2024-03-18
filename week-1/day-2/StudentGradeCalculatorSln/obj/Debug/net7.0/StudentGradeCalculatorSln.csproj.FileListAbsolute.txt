@@ -1,5 +1,0 @@
-/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/StudentGradeCalculatorSln/obj/Debug/net7.0/StudentGradeCalculatorSln.csproj.AssemblyReference.cache
-/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/StudentGradeCalculatorSln/obj/Debug/net7.0/StudentGradeCalculatorSln.GeneratedMSBuildEditorConfig.editorconfig
-/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/StudentGradeCalculatorSln/obj/Debug/net7.0/StudentGradeCalculatorSln.AssemblyInfoInputs.cache
-/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/StudentGradeCalculatorSln/obj/Debug/net7.0/StudentGradeCalculatorSln.AssemblyInfo.cs
-/home/ffekirnew/code/projects/c-sharp-start/a2sv-week-1/a2sv-day-1/StudentGradeCalculatorSln/obj/Debug/net7.0/StudentGradeCalculatorSln.csproj.CoreCompileInputs.cache
